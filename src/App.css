@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+#containerelement > div {
+  width: 2px;
+  height: 2px;
+  float: left;
+    position: relative;
+    left: -50%;
+}
+.container{
+  max-width: 512px;
+  float: left;
+    position: relative;
+    left: 50%;
+    margin-top: 25vh;
+      
+}
+
